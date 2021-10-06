@@ -17,7 +17,7 @@ namespace Projeto_ASP.Models
             return userIdentity;
         }
 
-        //Não funciona
+        //Resolvido
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
