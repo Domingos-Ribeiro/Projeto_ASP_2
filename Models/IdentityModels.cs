@@ -16,6 +16,8 @@ namespace Projeto_ASP.Models
             // Add custom user claims here
             return userIdentity;
         }
+
+        //Não funciona
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
